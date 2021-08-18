@@ -20,6 +20,7 @@
   <section class="chat-box">
     <div v-for="message in state.messages" :key="message.key" :class="(message.username == state.username ? 'message current-user' : 'message')">
       <div class="message-inner">
+        hola
         <div class="username">{{message.username}}</div>
          <div class="content">{{message.content}}</div>
       </div>
